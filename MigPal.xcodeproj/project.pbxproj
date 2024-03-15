@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C5F7072BA3C801003E2920 /* MigPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C5F7062BA3C801003E2920 /* MigPalApp.swift */; };
+		15C5F7092BA3C801003E2920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C5F7082BA3C801003E2920 /* ContentView.swift */; };
+		15C5F70B2BA3C801003E2920 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C5F70A2BA3C801003E2920 /* Item.swift */; };
+		15C5F70D2BA3C802003E2920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C5F70C2BA3C802003E2920 /* Assets.xcassets */; };
+		15C5F7112BA3C802003E2920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C5F7102BA3C802003E2920 /* Preview Assets.xcassets */; };
+		15C5F71B2BA3C802003E2920 /* MigPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C5F71A2BA3C802003E2920 /* MigPalTests.swift */; };
+		15C5F7252BA3C802003E2920 /* MigPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C5F7242BA3C802003E2920 /* MigPalUITests.swift */; };
+		15C5F7272BA3C802003E2920 /* MigPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C5F7262BA3C802003E2920 /* MigPalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C5F7172BA3C802003E2920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C5F6FB2BA3C801003E2920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C5F7022BA3C801003E2920;
+			remoteInfo = MigPal;
+		};
+		15C5F7212BA3C802003E2920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C5F6FB2BA3C801003E2920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C5F7022BA3C801003E2920;
+			remoteInfo = MigPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C5F7032BA3C801003E2920 /* MigPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C5F7062BA3C801003E2920 /* MigPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigPalApp.swift; sourceTree = "<group>"; };
+		15C5F7082BA3C801003E2920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15C5F70A2BA3C801003E2920 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		15C5F70C2BA3C802003E2920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15C5F70E2BA3C802003E2920 /* MigPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MigPal.entitlements; sourceTree = "<group>"; };
+		15C5F7102BA3C802003E2920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15C5F7162BA3C802003E2920 /* MigPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C5F71A2BA3C802003E2920 /* MigPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigPalTests.swift; sourceTree = "<group>"; };
+		15C5F7202BA3C802003E2920 /* MigPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C5F7242BA3C802003E2920 /* MigPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigPalUITests.swift; sourceTree = "<group>"; };
+		15C5F7262BA3C802003E2920 /* MigPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C5F7002BA3C801003E2920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C5F7132BA3C802003E2920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C5F71D2BA3C802003E2920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C5F6FA2BA3C801003E2920 = {
+			isa = PBXGroup;
+			children = (
+				15C5F7052BA3C801003E2920 /* MigPal */,
+				15C5F7192BA3C802003E2920 /* MigPalTests */,
+				15C5F7232BA3C802003E2920 /* MigPalUITests */,
+				15C5F7042BA3C801003E2920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15C5F7042BA3C801003E2920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C5F7032BA3C801003E2920 /* MigPal.app */,
+				15C5F7162BA3C802003E2920 /* MigPalTests.xctest */,
+				15C5F7202BA3C802003E2920 /* MigPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C5F7052BA3C801003E2920 /* MigPal */ = {
+			isa = PBXGroup;
+			children = (
+				15C5F7062BA3C801003E2920 /* MigPalApp.swift */,
+				15C5F7082BA3C801003E2920 /* ContentView.swift */,
+				15C5F70A2BA3C801003E2920 /* Item.swift */,
+				15C5F70C2BA3C802003E2920 /* Assets.xcassets */,
+				15C5F70E2BA3C802003E2920 /* MigPal.entitlements */,
+				15C5F70F2BA3C802003E2920 /* Preview Content */,
+			);
+			path = MigPal;
+			sourceTree = "<group>";
+		};
+		15C5F70F2BA3C802003E2920 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15C5F7102BA3C802003E2920 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15C5F7192BA3C802003E2920 /* MigPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C5F71A2BA3C802003E2920 /* MigPalTests.swift */,
+			);
+			path = MigPalTests;
+			sourceTree = "<group>";
+		};
+		15C5F7232BA3C802003E2920 /* MigPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15C5F7242BA3C802003E2920 /* MigPalUITests.swift */,
+				15C5F7262BA3C802003E2920 /* MigPalUITestsLaunchTests.swift */,
+			);
+			path = MigPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C5F7022BA3C801003E2920 /* MigPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C5F72A2BA3C802003E2920 /* Build configuration list for PBXNativeTarget "MigPal" */;
+			buildPhases = (
+				15C5F6FF2BA3C801003E2920 /* Sources */,
+				15C5F7002BA3C801003E2920 /* Frameworks */,
+				15C5F7012BA3C801003E2920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MigPal;
+			productName = MigPal;
+			productReference = 15C5F7032BA3C801003E2920 /* MigPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C5F7152BA3C802003E2920 /* MigPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C5F72D2BA3C802003E2920 /* Build configuration list for PBXNativeTarget "MigPalTests" */;
+			buildPhases = (
+				15C5F7122BA3C802003E2920 /* Sources */,
+				15C5F7132BA3C802003E2920 /* Frameworks */,
+				15C5F7142BA3C802003E2920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C5F7182BA3C802003E2920 /* PBXTargetDependency */,
+			);
+			name = MigPalTests;
+			productName = MigPalTests;
+			productReference = 15C5F7162BA3C802003E2920 /* MigPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15C5F71F2BA3C802003E2920 /* MigPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C5F7302BA3C802003E2920 /* Build configuration list for PBXNativeTarget "MigPalUITests" */;
+			buildPhases = (
+				15C5F71C2BA3C802003E2920 /* Sources */,
+				15C5F71D2BA3C802003E2920 /* Frameworks */,
+				15C5F71E2BA3C802003E2920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C5F7222BA3C802003E2920 /* PBXTargetDependency */,
+			);
+			name = MigPalUITests;
+			productName = MigPalUITests;
+			productReference = 15C5F7202BA3C802003E2920 /* MigPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C5F6FB2BA3C801003E2920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					15C5F7022BA3C801003E2920 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					15C5F7152BA3C802003E2920 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 15C5F7022BA3C801003E2920;
+					};
+					15C5F71F2BA3C802003E2920 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 15C5F7022BA3C801003E2920;
+					};
+				};
+			};
+			buildConfigurationList = 15C5F6FE2BA3C801003E2920 /* Build configuration list for PBXProject "MigPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C5F6FA2BA3C801003E2920;
+			productRefGroup = 15C5F7042BA3C801003E2920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C5F7022BA3C801003E2920 /* MigPal */,
+				15C5F7152BA3C802003E2920 /* MigPalTests */,
+				15C5F71F2BA3C802003E2920 /* MigPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C5F7012BA3C801003E2920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C5F7112BA3C802003E2920 /* Preview Assets.xcassets in Resources */,
+				15C5F70D2BA3C802003E2920 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C5F7142BA3C802003E2920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C5F71E2BA3C802003E2920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C5F6FF2BA3C801003E2920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C5F7092BA3C801003E2920 /* ContentView.swift in Sources */,
+				15C5F70B2BA3C801003E2920 /* Item.swift in Sources */,
+				15C5F7072BA3C801003E2920 /* MigPalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C5F7122BA3C802003E2920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C5F71B2BA3C802003E2920 /* MigPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C5F71C2BA3C802003E2920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C5F7272BA3C802003E2920 /* MigPalUITestsLaunchTests.swift in Sources */,
+				15C5F7252BA3C802003E2920 /* MigPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C5F7182BA3C802003E2920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C5F7022BA3C801003E2920 /* MigPal */;
+			targetProxy = 15C5F7172BA3C802003E2920 /* PBXContainerItemProxy */;
+		};
+		15C5F7222BA3C802003E2920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C5F7022BA3C801003E2920 /* MigPal */;
+			targetProxy = 15C5F7212BA3C802003E2920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C5F7282BA3C802003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15C5F7292BA3C802003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		15C5F72B2BA3C802003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MigPal/MigPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MigPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H8VP26HBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odrzywolekMarta.MigPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15C5F72C2BA3C802003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MigPal/MigPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MigPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H8VP26HBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odrzywolekMarta.MigPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15C5F72E2BA3C802003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H8VP26HBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odrzywolekMarta.MigPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MigPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MigPal";
+			};
+			name = Debug;
+		};
+		15C5F72F2BA3C802003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H8VP26HBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odrzywolekMarta.MigPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MigPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MigPal";
+			};
+			name = Release;
+		};
+		15C5F7312BA3C802003E2920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H8VP26HBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odrzywolekMarta.MigPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MigPal;
+			};
+			name = Debug;
+		};
+		15C5F7322BA3C802003E2920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H8VP26HBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = odrzywolekMarta.MigPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MigPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C5F6FE2BA3C801003E2920 /* Build configuration list for PBXProject "MigPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C5F7282BA3C802003E2920 /* Debug */,
+				15C5F7292BA3C802003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C5F72A2BA3C802003E2920 /* Build configuration list for PBXNativeTarget "MigPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C5F72B2BA3C802003E2920 /* Debug */,
+				15C5F72C2BA3C802003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C5F72D2BA3C802003E2920 /* Build configuration list for PBXNativeTarget "MigPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C5F72E2BA3C802003E2920 /* Debug */,
+				15C5F72F2BA3C802003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C5F7302BA3C802003E2920 /* Build configuration list for PBXNativeTarget "MigPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C5F7312BA3C802003E2920 /* Debug */,
+				15C5F7322BA3C802003E2920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C5F6FB2BA3C801003E2920 /* Project object */;
+}
